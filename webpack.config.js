@@ -4,7 +4,7 @@
 var path = require('path');
 
 module.exports = {
-  devtool: 'source-map', // this doesn't do anything when run in karma
+  devtool: 'inline-source-map', // inline to work with karma
   module: {
     loaders: [
       {
