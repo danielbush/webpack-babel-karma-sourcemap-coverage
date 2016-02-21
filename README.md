@@ -12,9 +12,12 @@ However, there are 2 things we want:
   lines of code have not been covered
 
 To run the tests:
+
     npm test
+
 This should start karma.
 
     npm run webpack
+
 is just a way to test webpack output.
 
